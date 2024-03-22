@@ -1,27 +1,22 @@
-<div id="<%= dom_id friend %>">
-  <p>
-    <strong>First name:</strong>
-    <%= friend.first_name %>
-  </p>
+<tr id="<%= dom_id friend %>">
+  <td>
+    <%= link_to friend.first_name, friend %>
+  </td>
 
-  <p>
-    <strong>Last name:</strong>
+  <td>
     <%= friend.last_name %>
-  </p>
+  </td>
 
-  <p>
-    <strong>Email:</strong>
+  <td>
     <%= friend.email %>
-  </p>
+  </td>
 
-  <p>
-    <strong>Phone:</strong>
+  <td>
     <%= friend.phone %>
-  </p>
+  </td>
 
-  <p>
-    <strong>Twitter:</strong>
+  <td>
     <%= friend.twitter %>
-  </p>
+  </td>
 
-</div>
+</tr>
